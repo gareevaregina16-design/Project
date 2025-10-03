@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказы — STYLE+</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<ul class="nav nav-tabs justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="index.html">Главная</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="men.html">Мужская одежда</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="women.html">Женская одежда</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="contact.html">Заказы</a>
+    </li>
+    <!--    Поменять на открытие отдельной вкладки-->
+    <li class="nav-item">
+        <a class="nav-link " href="https://www.zara.com">ZARA</a>
+    </li>
+</ul>
+
+<header>
+    <h1>Контакты и заказы</h1>
+</header>
+
+    <h2>Контактная форма</h2>
+    <form action="https://httpbin.org/post" method="post">
+        <label>Фамилия: <input type="text" name="surname" required></label><br>
+        <label>Имя: <input type="text" name="name" required></label><br>
+        <label>Группа: <input type="text" name="group"></label><br>
+        <label>Телефон: <input type="text" name="phone"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        <label>Дата: <input type="date" name="date"></label><br>
+        <input type="submit" value="Отправить">
+    </form>
+
+<h2>Форма заказа / отзывов (оригинальные данные)</h2>
+<form action="https://example.com/submit_order" method="post">
+    <!-- поле text -->
+    <label>Название товара (text): <input type="text" name="product_name" value="Футболка Classic"></label>
+    <br>
+    <!-- поле number -->
+    <label>Количество (number): <input type="number" name="quantity" min="1" value="1"></label>
+    <br>
+    <!-- radio -->
+    <div>
+        Оплата:
+        <label><input type="radio" name="payment" value="card" checked> Картой</label>
+        <label><input type="radio" name="payment" value="cash"> Наличными</label>
+    </div>
+    <!-- checkbox -->
+    <div>
+        Дополнения:
+        <label><input type="checkbox" name="gift_wrap" value="yes"> Подарочная упаковка</label>
+        <label><input type="checkbox" name="express" value="yes"> Экспресс-доставка</label>
+    </div>
+    <!-- date -->
+    <label>Дата доставки (date): <input type="date" name="delivery_date" value="2025-10-01"></label>
+    <br>
+    <!-- password -->
+    <label>Введите пароль для подтверждения (password): <input type="password" name="confirm_password" value="secret123"></label>
+    <br>
+    <!-- hidden + возможность отправлять значения по-умолчанию -->
+    <input type="hidden" name="store_id" value="mycloth-001">
+    <input type="hidden" name="utm_source" value="course_project">
+
+    <p><button class="btn" type="submit">Отправить заказ / отзыв</button></p>
+</form>
+</body>
+</html>>

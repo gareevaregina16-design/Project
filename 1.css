@@ -1,0 +1,158 @@
+ /*Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("img/photo_2025-09-30_17-19-53.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #222;
+}
+
+/* Шапка */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Ссылки меню */
+.nav-link {
+    font-size: 18px;
+    color: #000;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Секции */
+section {
+    background-color: #ebbafb;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Списки */
+section ul {
+    list-style-type: square;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+/* Футер */
+footer {
+    background-color: #e3c8ff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+/*body {*/
+/*    font-family: Arial, sans-serif;*/
+/*    background-color: #fbbaf8;*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*header {*/
+/*    background-color: #9e68f8;*/
+/*    color: white;*/
+/*    padding: 20px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.li {*/
+/*    margin: 0 30px;*/
+/*}*/
+
+
+/*                               !*для этого нужно прописать блоки с товарами*!*/
+/*!*.product-block {*!*/
+/*!*    display: inline-block;*!*/
+/*!*    width: 300px;*!*/
+/*!*    margin: 20px;*!*/
+/*!*    text-align: center;*!*/
+/*!*    background-color: #f1f1f1;*!*/
+/*!*    padding: 20px;*!*/
+/*!*    border-radius: 5px;*!*/
+/*!*    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*!*/
+/*!*}*!*/
+
+/*!*.product-block img {*!*/
+/*!*    width: 200px;*!*/
+/*!*    height: 200px;*!*/
+/*!*    align-items: center;*!*/
+/*!*    object-fit: cover;*!*/
+/*!*    border-radius: 5px;*!*/
+/*!*}*!*/
+
+/*!*.product-block h3 {*!*/
+/*!*    margin-top: 10px;*!*/
+/*!*    font-size: 18px;*!*/
+/*!*}*!*/
+
+/*!*.product-block p {*!*/
+/*!*    margin-top: 5px;*!*/
+/*!*    font-size: 16px;*!*/
+/*!*}*!*/
+
+/*main p {*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*                            !*Прописать кнопку перейти к верху сайта*!*/
+/*.back-to-top {*/
+/*    float: left;*/
+/*    margin-top: 20px*/
+
+/*}*/
+/*.main {*/
+/*    text-align: center;*/
+/*}*/
+/*.image {*/
+/*    display: inline-block;*/
+/*    margin-top: 100px;*/
+/*    margin: 10px;*/
+/*    width: 200px;*/
+/*    height: 200px;*/
+/*}*/
+/*.caption {*/
+/*    display: block;*/
+/*    font-size: 14px;*/
+/*    color: #666;*/
+/*}*/
+/*footer {*/
+/*    background-color: #e3c8ff;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*}*/
+
+

@@ -23,9 +23,14 @@
     <li class="nav-item">
         <a class="nav-link " href="contact.html">Заказы</a>
     </li>
-    <!--    Поменять на открытие отдельной вкладки-->
     <li class="nav-item">
-        <a class="nav-link " href="https://www.zara.com">ZARA</a>
+        <a class="nav-link " href="passport.html">Паспорт</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="zadacha.html">Задача</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="https://www.zara.com" target="_blank">ZARA</a>
     </li>
 </ul>
 
@@ -44,37 +49,37 @@
         <input type="submit" value="Отправить">
     </form>
 
-<h2>Форма заказа / отзывов (оригинальные данные)</h2>
+<h2>Форма заказа / отзывов</h2>
 <form action="https://example.com/submit_order" method="post">
-    <!-- поле text -->
-    <label>Название товара (text): <input type="text" name="product_name" value="Футболка Classic"></label>
+
+    <label>Название товара (text): <input type="text" name="product_name" value="Белая классическая рубашка"></label>
     <br>
-    <!-- поле number -->
+
     <label>Количество (number): <input type="number" name="quantity" min="1" value="1"></label>
     <br>
-    <!-- radio -->
+
     <div>
         Оплата:
         <label><input type="radio" name="payment" value="card" checked> Картой</label>
         <label><input type="radio" name="payment" value="cash"> Наличными</label>
     </div>
-    <!-- checkbox -->
+
     <div>
         Дополнения:
         <label><input type="checkbox" name="gift_wrap" value="yes"> Подарочная упаковка</label>
         <label><input type="checkbox" name="express" value="yes"> Экспресс-доставка</label>
     </div>
-    <!-- date -->
-    <label>Дата доставки (date): <input type="date" name="delivery_date" value="2025-10-01"></label>
+
+    <label>Дата доставки: <input type="date" name="delivery_date" value="2025-10-01"></label>
     <br>
-    <!-- password -->
-    <label>Введите пароль для подтверждения (password): <input type="password" name="confirm_password" value="secret123"></label>
+
+    <label>Введите пароль для подтверждения: <input type="password" name="confirm_password"></label>
     <br>
-    <!-- hidden + возможность отправлять значения по-умолчанию -->
+
     <input type="hidden" name="store_id" value="mycloth-001">
     <input type="hidden" name="utm_source" value="course_project">
 
     <p><button class="btn" type="submit">Отправить заказ / отзыв</button></p>
 </form>
 </body>
-</html>>
+</html>
